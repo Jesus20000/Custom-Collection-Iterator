@@ -27,6 +27,3 @@ Library Collection:
 Goal:
 - Understand and apply the Iterator Design Pattern.
 - Learn how to separate data storage logic from iteration logic.
-
-Author:
-Isa Zeynalov
