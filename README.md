@@ -1,9 +1,6 @@
-```markdown
 # 📚 Custom Collection Iterator
 
 This project demonstrates the **Iterator Design Pattern** in Python by building a digital archive system for managing a book collection. It separates the logic of storing books from the logic of traversing them using a custom iterator.
-
----
 
 ## 🛠️ Technologies Used
 
@@ -11,38 +8,24 @@ This project demonstrates the **Iterator Design Pattern** in Python by building 
 - Object-Oriented Programming  
 - Iterator Design Pattern
 
----
-
 ## 🧠 Design Pattern: Iterator
 
 The **Iterator Pattern** provides a way to access elements of a collection sequentially without exposing the underlying structure. It supports clean iteration over complex objects such as a book collection.
 
----
-
 ## 📁 Project Structure
 
-```
-
-custom-collection-iterator/
-│
-├── book.py             # Defines the Book class with title, author, category
-├── book\_iterator.py    # Custom iterator implementation
-├── book\_collection.py  # Stores and manages the book list
-├── main.py             # Demonstrates usage of the collection and iterator
-└── README.md           # Project documentation
-
-```
-
----
+- `book.py` – Defines the Book class with title, author, and category  
+- `book_iterator.py` – Implements the custom iterator logic  
+- `book_collection.py` – Manages the list of books and returns the iterator  
+- `main.py` – Demonstrates how to use the book collection and iterate through it  
+- `README.md` – Project documentation (this file)
 
 ## 🚀 Features
 
 - Add books to a custom collection  
 - Iterate through books using a custom iterator  
-- Clear, modular, and extensible object-oriented design  
+- Clean, modular, and extensible object-oriented design  
 - Easily adaptable for filtering and sorting
-
----
 
 ## 📌 Sample Output
 
@@ -54,8 +37,6 @@ Library Collection:
 'Clean Code' by Robert C. Martin \[Programming]
 
 ````
-
----
 
 ## ▶️ How to Run
 
@@ -72,13 +53,3 @@ cd custom-collection-iterator
 python main.py
 ```
 
----
-
-## ✨ Extension Ideas
-
-* Add filtering iterators (e.g., by author or category)
-* Add sorting functionality (alphabetically or by year)
-* Implement reverse iteration
-* Add pagination for large collections
-
----
